@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "search1",
     "name": "search1",
     "slug": "search1",
     "version": "1.0.0",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.omkar342.search1"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5b5bd3ee-59c1-4743-8072-e2fa66296202"
+      }
     }
   }
 }
